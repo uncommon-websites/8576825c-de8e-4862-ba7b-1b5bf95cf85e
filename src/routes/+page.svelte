@@ -52,60 +52,66 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Finance clarity. Strategic control."
+	text="We bring investor-grade expertise to your business—so you can grow with confidence, increase profitability, and prepare for your next move. Many SMBs run without clear reporting, strategic planning, or visibility into what's really driving profit. We fix that."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Alexandra Martinez",
+			position: "CEO",
+			company: "Precision Manufacturing Co.",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"LIMESTONE transformed our financial chaos into clarity. Within 90 days, we identified $2.3M in cost savings and secured our Series A funding 6 months ahead of schedule. Their fractional CFO approach gave us enterprise-level financial strategy at a fraction of the cost.",
+			image: "/generated/image-professional-headshot-of-a-confident-mid.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Thompson",
+			position: "Founder",
+			company: "Sustainable Energy Solutions",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before LIMESTONE, we were flying blind financially. Now we have real-time dashboards and monthly board-ready reports that helped us avoid a potential cash flow crisis. Their proactive approach saved us from what could have been a $500K bridge loan.",
+			image: "/generated/image-professional-headshot-of-a-successful-ma.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Victoria Chen",
+			position: "Managing Director",
+			company: "Digital Health Ventures",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The financial infrastructure LIMESTONE built reduced our month-end close from 3 weeks to 5 days. This efficiency gain freed up 40 hours monthly that we now invest in strategic initiatives. Their investor-grade reporting directly contributed to our successful $15M Series B.",
+			image: "/generated/image-professional-headshot-of-an-experienced-.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Strategic finance that scales with your growth"
+	subtitle="From startup funding to fractional CFO expertise, we provide the financial foundation and strategic guidance that transforms good businesses into great ones"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Investor-grade financial reporting",
+			description: "Transform unclear financials into compelling data stories that secure funding and drive strategic decisions with confidence."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Fractional CFO partnership",
+			description: "Access C-suite financial expertise without the full-time commitment, providing strategic leadership precisely when you need it most."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Capital raising facilitation",
+			description: "Navigate the complex funding landscape with seasoned expertise that connects your growth story to the right investors."
+		},
+		{
+			title: "Operational finance execution",
+			description: "Bridge the gap between financial strategy and daily operations with hands-on implementation that delivers measurable results."
+		},
+		{
+			title: "Growth transition planning",
+			description: "Prepare your business for acquisition or exit with strategic positioning that maximizes valuation and ensures smooth transitions."
+		},
+		{
+			title: "Data-driven decision support",
+			description: "Convert financial complexity into clear insights that unlock growth opportunities and prevent costly strategic missteps."
 		}
 	]}
 />
