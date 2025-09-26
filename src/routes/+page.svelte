@@ -6,16 +6,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	centered={true}
+	title="Strategic finance partners for growing businesses"
+	subtitle="From startup funding to fractional CFO services, we provide the financial expertise and operational execution you need to scale confidently."
+	customers={[
+		{
+			name: "Michael Thompson",
+			position: "CEO, TechFlow Solutions",
+			imageSrc: "/generated/image-centered-portrait-of-a-professional-midd.webp"
+		},
+		{
+			name: "Sarah Chen",
+			position: "Founder, GreenVentures",
+			imageSrc: "/generated/image-centered-portrait-of-a-professional-fema.webp"
+		},
+		{
+			name: "David Rodriguez",
+			position: "Co-founder, DataSync",
+			imageSrc: "/generated/image-centered-portrait-of-a-professional-male.webp"
+		},
+		{
+			name: "Amanda Foster",
+			position: "CEO, FinTech Innovations",
+			imageSrc: "/generated/image-centered-portrait-of-a-professional-fema.webp"
+		},
+		{
+			name: "James Wilson",
+			position: "Founder, CloudScale",
+			imageSrc: "/generated/image-centered-portrait-of-a-professional-male.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/shopify.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/hubspot.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/atlassian.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
